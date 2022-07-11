@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+    
+    
+    h1{
+        color: white;
+        background-color: black;
+        text-align: center;
+        font-family: 'Odibee Sans', cursive;
+        /*width: 300px;*/
+    }
+
+    .pimer-span{
+        color:red;
+        background-color: blue;
+    }
+
+   .segundo-parrafo{
+     font-size: 30px;
+     font-weight: bold;
+     background-color: gray;
+     /*width: 350px;
+     height: 350px;*/
+   }
+
+   .parrafo-contacto{
+       font-size: 20px;
+       font-weight: 500;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   .tipografia{
+    font-family: 'Smooch', cursive;
+   }
+
+   .anchor{ 
+    text-decoration: none;
+   }

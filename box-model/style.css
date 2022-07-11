@@ -1,0 +1,58 @@
+/*{ *{ es un selector universal le da ese mismo estilo a todo el trabajo
+ background-color:red ; ejemplo
+} */
+
+
+.primer-parrafo {
+    color:white;
+    background-color: mediumpurple;
+    background-color: rgb(red, green, blue);
+    /*es una de las maneras para utilizar la paleta de colores, y es muy importante ya que algunas empresas usan colores especificos*/
+    background-color: rgba(150, 15, 100, .3);
+    /* sirve para la opacidad, es decir para darle profundidad*/
+    text-align: center;
+    /*sirve para centrar lo textos o ponerlos a la derecha o izquierda*/
+} 
+
+
+.segundo-parrafo {
+    background-color: green;
+    text-align: right;
+
+}
+
+
+.primer-span{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    width: 30%;
+    height: 30vh;
+    background-color: blue;
+    border: 4px solid black;
+    /*El border necesita de 3 cosas para funcionar: tamaño en px, Tipo ej solid y el color que va a utilizar */
+}
+
+.rojo{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+
+}
+
+.verde{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}
+
+.cuadro-texto{
+    border: 1px solid black;
+    width: 300px;
+    height: 150px; 
+    overflow: scroll;
+    margin-top: 50px;
+}
